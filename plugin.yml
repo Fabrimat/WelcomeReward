@@ -1,0 +1,20 @@
+main: me.fabrimat.WelcomeReward.WelcomeReward
+name: WelcomeReward
+version: '${project.version}'
+api-version: '1.13'
+author: Fabrimat
+commands:
+  welcomereward:
+    aliases:
+    - wr
+    description: Manage the plugin
+    permission: welcomereward.admin
+    permission-message: You do not have permission!
+    usage: /welcomereward reload
+permissions: 
+  welcomereward.getreward:
+   description: Permits to recive the reward
+   default: false
+  welcomereward.admin:
+   description: Command welcomereward
+   default: op

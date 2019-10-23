@@ -1,0 +1,8 @@
+me\fabrimat\WelcomeReward\config\ConfigString.class
+me\fabrimat\WelcomeReward\RewardsManager.class
+me\fabrimat\WelcomeReward\listeners\PlayerChatListener.class
+me\fabrimat\WelcomeReward\listeners\PlayerChatListener$1CommandDispatcher.class
+me\fabrimat\WelcomeReward\WelcomeReward.class
+me\fabrimat\WelcomeReward\commands\WelcomeRewardCommand.class
+me\fabrimat\WelcomeReward\listeners\PlayerFirstJoinListener.class
+me\fabrimat\WelcomeReward\config\Config.class
