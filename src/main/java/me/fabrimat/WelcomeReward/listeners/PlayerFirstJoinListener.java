@@ -13,7 +13,7 @@ public class PlayerFirstJoinListener  implements Listener{
 	@EventHandler
 	public void onPlayerFirstJoin(PlayerJoinEvent e) {
 		Player p = e.getPlayer();
-		if(!p.hasPlayedBefore() || true) {
+		if(!p.hasPlayedBefore()) {
 			RewardsManager manager = RewardsManager.getInstance();
 			manager.insertPlayer(p.getUniqueId());
 			manager.setLastJoined(new Date().getTime());
