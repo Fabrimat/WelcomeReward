@@ -4,7 +4,7 @@ word: "welcome"
 timer: 20
 # Command to be executed for the reward
 commands:
-    - cmi money give [playerName] 100
+    - eco give [playerName] 100
 messages:
     prefix: "&7[&aWelcomeReward&7]"
     reward-message: "&bYou recived &d$100 &bfor welcoming a new player!"
